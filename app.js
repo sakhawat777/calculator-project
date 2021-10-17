@@ -1,3 +1,4 @@
+//Wrap code in JavaScript Immediately-invoked Function Expressions (IIFE)
 (function () {
 	let screen = document.querySelector('.screen');
 	let buttons = document.querySelectorAll('.btn');
@@ -25,4 +26,4 @@
 	clear.addEventListener('click', function (e) {
 		screen.value = '';
 	});
-})();
+})(); //end IIFE
