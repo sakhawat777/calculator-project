@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .container {
-	width: 1000px;
+	width: 100%;
 	height: auto;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 .screen {
 	width: 100%;
-	font-size: 7rem;
+	font-size: 5rem;
 	padding: 0.5rem;
 	background: rgb(41, 41, 56);
 	color: white;
